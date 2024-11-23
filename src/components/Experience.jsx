@@ -5,7 +5,7 @@ const Experience = () => {
       title: "Frontend Developer & Graphic Designer ",
       company: "Boffin Blocks",
       location: "On-site",
-      date: "March 2024 - Present",
+      date: "March 2024 - Nov 2024",
       responsibilities: [
         `Designed and developed visually appealing, responsive web pages using React.js, ensuring seamless user experiences across devices.`,
         `Collaborated with UI/UX designers to create intuitive interfaces, improving user interaction and accessibility.`,
