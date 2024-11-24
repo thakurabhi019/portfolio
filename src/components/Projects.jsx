@@ -1,6 +1,7 @@
 import ProjectsCard from "./ProjectsCard";
 import chatAppImage from '/src/assets/image/Screenshot_16-11-2024_2064_liquid-health.vercel.app.jpeg';
 import FigmaImage from '/src/assets/image/Screenshot 2024-11-17 210326.png'
+import tatamotors from '/src/assets/image/tatamotarsimage.jpeg'
 const Projects = () => {
   const portfolioData = {
     portfolioCards: [
@@ -43,6 +44,21 @@ const Projects = () => {
       },
       {
         id: 3, 
+        name: "Tata Motors",
+        description:
+          "I'm designing a Tata Motors website in Figma, focusing on creating an interactive and seamless user experience. The prototype includes dynamic real-time data updates, and intuitive navigation. It emphasizes smooth transitions and engaging interactions.",
+        imageUrl:
+        tatamotors,
+          techStack: [
+            "Figma",
+          ],
+        DemoLink: [
+          "https://www.figma.com/proto/pFKsghHlwCiCxBfqouJjqD/Untitled?node-id=2-3&node-type=canvas&t=ATb53FVbMNk2b2c4-0&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=2%3A3",
+          "https://www.figma.com/proto/pFKsghHlwCiCxBfqouJjqD/Untitled?node-id=2-3&node-type=canvas&t=ATb53FVbMNk2b2c4-0&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=2%3A3",
+        ],
+      },
+      {
+        id: 4, 
         name: "Trading View",
         description:
           "I'm designing a TradingView-inspired website in Figma, focusing on creating an interactive and seamless user experience. The prototype includes dynamic charts, real-time data updates, and intuitive navigation. It emphasizes smooth transitions and engaging interactions to provide users with an efficient and immersive trading platform",
@@ -56,6 +72,7 @@ const Projects = () => {
           "https://www.figma.com/proto/w8l7gdX4UEMrZLup3rBrgd/Untitled?node-id=8-95&node-type=canvas&t=kkSbDjKMDuH7fUdO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A95",
         ],
       },
+     
       
     ],
   };
