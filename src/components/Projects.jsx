@@ -2,6 +2,7 @@ import ProjectsCard from "./ProjectsCard";
 import chatAppImage from '/src/assets/image/Screenshot_16-11-2024_2064_liquid-health.vercel.app.jpeg';
 import FigmaImage from '/src/assets/image/Screenshot 2024-11-17 210326.png'
 import tatamotors from '/src/assets/image/tatamotarsimage.jpeg'
+import flightnetwork from '/src/assets/image/Screenshot_28-11-2024_143057_us-en.flightnetwork.com.jpeg'
 const Projects = () => {
   const portfolioData = {
     portfolioCards: [
@@ -44,6 +45,23 @@ const Projects = () => {
       },
       {
         id: 3, 
+        name: "Flight Network",
+        description:
+          "The Flight Network website, designed in Figma, includes a versatile section where users can browse hotels and discover visiting places. This feature enhances the travel experience by combining flight booking with accommodation and destination insights",
+        imageUrl:
+        flightnetwork,
+          techStack: [
+            "Figma",
+            "Prototyping",
+            "Design",
+          ],
+        DemoLink: [
+          "https://www.figma.com/proto/M9HCaE0yJBPBIJcxl2Spds/Untitled?node-id=2-2&node-type=canvas&t=Zj4bleRwVgGT6LPQ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2",
+          "https://www.figma.com/proto/M9HCaE0yJBPBIJcxl2Spds/Untitled?node-id=2-2&node-type=canvas&t=Zj4bleRwVgGT6LPQ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2",
+        ],
+      },
+      {
+        id: 4, 
         name: "Tata Motors",
         description:
           "I'm designing a Tata Motors website in Figma, focusing on creating an interactive and seamless user experience. The prototype includes dynamic real-time data updates, and intuitive navigation. It emphasizes smooth transitions and engaging interactions.",
@@ -51,6 +69,8 @@ const Projects = () => {
         tatamotors,
           techStack: [
             "Figma",
+            "Prototyping",
+            "Design",
           ],
         DemoLink: [
           "https://www.figma.com/proto/pFKsghHlwCiCxBfqouJjqD/Untitled?node-id=2-3&node-type=canvas&t=ATb53FVbMNk2b2c4-0&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=2%3A3",
@@ -58,7 +78,7 @@ const Projects = () => {
         ],
       },
       {
-        id: 4, 
+        id: 5, 
         name: "Trading View",
         description:
           "I'm designing a TradingView-inspired website in Figma, focusing on creating an interactive and seamless user experience. The prototype includes dynamic charts, real-time data updates, and intuitive navigation. It emphasizes smooth transitions and engaging interactions to provide users with an efficient and immersive trading platform",
@@ -66,6 +86,8 @@ const Projects = () => {
         FigmaImage,
           techStack: [
             "Figma",
+            "Prototyping",
+            "Design",
           ],
         DemoLink: [
           "https://www.figma.com/proto/w8l7gdX4UEMrZLup3rBrgd/Untitled?node-id=8-95&node-type=canvas&t=kkSbDjKMDuH7fUdO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A95",
