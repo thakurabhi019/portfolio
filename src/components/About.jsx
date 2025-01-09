@@ -44,7 +44,7 @@ const About = () => {
           <div className="flex gap-6 ">
             <div>
               <a
-                href="https://www.canva.com/design/DAF-nlv9wkE/tFgZZeaoyWY2QMb09APp3g/view?utm_content=DAF-nlv9wkE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8be4df5872"
+                href="https://www.canva.com/design/DAGbk8T1XTg/hPqO--qPknu_H_Jn23WK5w/view?utm_content=DAGbk8T1XTg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb8b19ebbf7"
                 target="_blank"
                 rel="noopener noreferrer"
               >
