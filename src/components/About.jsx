@@ -9,7 +9,7 @@ const About = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Abhishek Thakur.", "Frontend Developer & Graphic designer"],
+      strings: ["Abhishek Thakur.", "Ui/Ux Designer"],
       startDelay: 300,
       typeSpeed: 100,
       backSpeed: 120,

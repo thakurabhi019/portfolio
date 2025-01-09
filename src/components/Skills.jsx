@@ -14,6 +14,7 @@ import awsImage from "../assets/image/aws.png";
 import langchain from "../assets/image/langchain-logo-png_seeklogo-528369.png";
 import FigmaImage from '../assets/image/figma.png'
 import CanvaImage from '../assets/image/icons8-canva-48.png'
+import adobeImage from '../assets/image/adobelogo-removebg-preview.png'
 
 const Skills = () => {
   const items = [
@@ -40,7 +41,7 @@ const Skills = () => {
       ],
     },
     {
-        title: "Graphic Designing",
+        title: "Ui/Ux Designing",
         content: [
           {
             title: "Figma",
@@ -49,6 +50,10 @@ const Skills = () => {
           {
             title: "Canva",
             image: CanvaImage,
+          },
+          {
+            title: "Adobe Express",
+            image: adobeImage,
           },
           // Add more back-end technologies
         ],

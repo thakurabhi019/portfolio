@@ -6,9 +6,44 @@ import flightnetwork from '/src/assets/image/Screenshot_28-11-2024_143057_us-en.
 const Projects = () => {
   const portfolioData = {
     portfolioCards: [
+
+      {
+        id: 1, 
+        name: "Flight Network",
+        description:
+          "The Flight Network website, designed in Figma, includes a versatile section where users can browse hotels and discover visiting places. This feature enhances the travel experience by combining flight booking with accommodation and destination insights",
+        imageUrl:
+        flightnetwork,
+          techStack: [
+            "Figma",
+            "Prototyping",
+            "Design",
+          ],
+        DemoLink: [
+          "https://www.figma.com/proto/M9HCaE0yJBPBIJcxl2Spds/Untitled?node-id=2-2&node-type=canvas&t=Zj4bleRwVgGT6LPQ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2",
+          "https://www.figma.com/proto/M9HCaE0yJBPBIJcxl2Spds/Untitled?node-id=2-2&node-type=canvas&t=Zj4bleRwVgGT6LPQ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2",
+        ],
+      },
+      {
+        id: 2, 
+        name: "Tata Motors",
+        description:
+          "I'm designing a Tata Motors website in Figma, focusing on creating an interactive and seamless user experience. The prototype includes dynamic real-time data updates, and intuitive navigation. It emphasizes smooth transitions and engaging interactions.",
+        imageUrl:
+        tatamotors,
+          techStack: [
+            "Figma",
+            "Prototyping",
+            "Design",
+          ],
+        DemoLink: [
+          "https://www.figma.com/proto/pFKsghHlwCiCxBfqouJjqD/Untitled?node-id=2-3&node-type=canvas&t=ATb53FVbMNk2b2c4-0&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=2%3A3",
+          "https://www.figma.com/proto/pFKsghHlwCiCxBfqouJjqD/Untitled?node-id=2-3&node-type=canvas&t=ATb53FVbMNk2b2c4-0&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=2%3A3",
+        ],
+      },
      
       {
-        id: 1,
+        id: 3,
         name: "Plagiarism Detector - Frontend",
         description:
           "The Frontend for the Plagiarism and AI Detection Website is a fully responsive, user-centric interface designed to provide an intuitive and seamless experience for users across all devices. Developed using **Angular**, **Tailwind CSS**, and **HTML**, this frontend ensures fast rendering, easy navigation, and a visually appealing design while allowing users to easily upload documents and receive real-time plagiarism and AI detection results. The platform's interface integrates directly with the backend to process and display results efficiently.",
@@ -26,7 +61,7 @@ const Projects = () => {
         ]
       },
       {
-        id: 2, 
+        id: 4, 
         name: "Liquid Health",
         description:
           "The Liquid Health frontend, built with React, Tailwind CSS, and HTML, offers a fully responsive, user-friendly design. It ensures fast, smooth interactions across all devices, delivering an engaging, performance-optimized experience for users",
@@ -43,40 +78,7 @@ const Projects = () => {
           "https://liquid-health.vercel.app/",
         ],
       },
-      {
-        id: 3, 
-        name: "Flight Network",
-        description:
-          "The Flight Network website, designed in Figma, includes a versatile section where users can browse hotels and discover visiting places. This feature enhances the travel experience by combining flight booking with accommodation and destination insights",
-        imageUrl:
-        flightnetwork,
-          techStack: [
-            "Figma",
-            "Prototyping",
-            "Design",
-          ],
-        DemoLink: [
-          "https://www.figma.com/proto/M9HCaE0yJBPBIJcxl2Spds/Untitled?node-id=2-2&node-type=canvas&t=Zj4bleRwVgGT6LPQ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2",
-          "https://www.figma.com/proto/M9HCaE0yJBPBIJcxl2Spds/Untitled?node-id=2-2&node-type=canvas&t=Zj4bleRwVgGT6LPQ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2",
-        ],
-      },
-      {
-        id: 4, 
-        name: "Tata Motors",
-        description:
-          "I'm designing a Tata Motors website in Figma, focusing on creating an interactive and seamless user experience. The prototype includes dynamic real-time data updates, and intuitive navigation. It emphasizes smooth transitions and engaging interactions.",
-        imageUrl:
-        tatamotors,
-          techStack: [
-            "Figma",
-            "Prototyping",
-            "Design",
-          ],
-        DemoLink: [
-          "https://www.figma.com/proto/pFKsghHlwCiCxBfqouJjqD/Untitled?node-id=2-3&node-type=canvas&t=ATb53FVbMNk2b2c4-0&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=2%3A3",
-          "https://www.figma.com/proto/pFKsghHlwCiCxBfqouJjqD/Untitled?node-id=2-3&node-type=canvas&t=ATb53FVbMNk2b2c4-0&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=2%3A3",
-        ],
-      },
+     
       {
         id: 5, 
         name: "Trading View",
@@ -103,7 +105,7 @@ const Projects = () => {
       <div className="ml-[10.5rem] pt-12">
         <h1 className=" text-2xl font-bold ">MY PROJECTS</h1>
         <h2 className=" text-lg ">
-          Each project is a unique piece of development
+          Each project is a unique piece of Design
         </h2>
       </div>
       <div className="w-[80%] ml-[10.5rem] flex flex-col justify-center items-center text-center py-10 gap-20 rounded bg-[#B4F2F1] mb-20">
