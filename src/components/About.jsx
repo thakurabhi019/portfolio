@@ -38,7 +38,7 @@ const About = () => {
             I'm <span ref={el}></span>
           </h1>
           <p className="text-xl text-gray-500">
-          Creating visually stunning, user-friendly websites and designs, blending development expertise with creativity to deliver impactful digital experiences.
+          Creative UI/UX Designer passionate about crafting visually stunning, user-friendly designs. Focused on enhancing digital experiences through intuitive interfaces, seamless interactions, and aesthetically engaging visuals.
           </p>
 
           <div className="flex gap-6 ">

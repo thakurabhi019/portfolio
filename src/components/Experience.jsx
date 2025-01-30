@@ -2,16 +2,17 @@ const Experience = () => {
   const workExperience = [
     {
       id: 1,
-      title: "Frontend Developer & Graphic Designer ",
+      title: "UI/UX Designer",
       company: "Boffin Blocks",
       location: "On-site",
       date: "March 2024 - Nov 2024",
       responsibilities: [
-        `Designed and developed visually appealing, responsive web pages using React.js, ensuring seamless user experiences across devices.`,
-        `Collaborated with UI/UX designers to create intuitive interfaces, improving user interaction and accessibility.`,
-        `Worked with cross-functional teams to integrate designs into fully functional frontend applications, enhancing visual appeal and performance.`,
+        `Designed and created user-centric UI/UX experiences using Figma and Canva, ensuring visually appealing and intuitive designs.`,
+        `Developed responsive web interfaces using HTML and CSS, enhancing usability and accessibility.`,
+        `Collaborated with developers and stakeholders to translate design concepts into functional digital experiences.`,
       ],
     }
+    
     
     // {
     //   id: 2,
