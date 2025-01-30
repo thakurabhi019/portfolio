@@ -48,10 +48,10 @@ const Projects = () => {
         id: 4,
         name: "Plagiarism Detector - Frontend",
         description:
-          "The Frontend for the Plagiarism and AI Detection Website is a fully responsive, user-centric interface designed to provide an intuitive and seamless experience for users across all devices. Developed using **Angular**, **Tailwind CSS**, and **HTML**, this frontend ensures fast rendering, easy navigation, and a visually appealing design while allowing users to easily upload documents and receive real-time plagiarism and AI detection results. The platform's interface integrates directly with the backend to process and display results efficiently.",
+          "The Frontend for the Plagiarism and AI Detection Website is a fully responsive, user-centric interface designed to provide an intuitive and seamless experience for users across all devices. Developed using **Tailwind CSS**, and **HTML**, this frontend ensures fast rendering, easy navigation, and a visually appealing design while allowing users to easily upload documents and receive real-time plagiarism and AI detection results. The platform's interface integrates directly with the backend to process and display results efficiently.",
         imageUrl:
           "https://res.cloudinary.com/gk35044/image/upload/v1722430210/Screenshot_from_2024-07-31_18-15-18_mwmbtd.png",
-        techStack: ["Angular", "Tailwind CSS", "HTML5", "Responsive Design"],
+        techStack: ["HTML5", "Tailwind CSS", "Responsive Design"],
         DemoLink: [
           "https://dashboard.skylineacademic.com/user/dashboard",
           "https://dashboard.skylineacademic.com/user/dashboard",
@@ -63,25 +63,25 @@ const Projects = () => {
         description:
           "The Liquid Health frontend, built with React, Tailwind CSS, and HTML, offers a fully responsive, user-friendly design. It ensures fast, smooth interactions across all devices, delivering an engaging, performance-optimized experience for users",
         imageUrl: chatAppImage,
-        techStack: ["React Js", "Tailwind CSS", "HTML5", "Responsive Design"],
+        techStack: [  "HTML5", "Tailwind CSS", "Responsive Design"],
         DemoLink: [
           "https://liquid-health.vercel.app/",
           "https://liquid-health.vercel.app/",
         ],
       },
 
-      {
-        id: 6,
-        name: "Trading View",
-        description:
-          "I'm designing a TradingView-inspired website in Figma, focusing on creating an interactive and seamless user experience. The prototype includes dynamic charts, real-time data updates, and intuitive navigation. It emphasizes smooth transitions and engaging interactions to provide users with an efficient and immersive trading platform",
-        imageUrl: FigmaImage,
-        techStack: ["Figma", "Prototyping", "Design"],
-        DemoLink: [
-          "https://www.figma.com/proto/w8l7gdX4UEMrZLup3rBrgd/Untitled?node-id=8-95&node-type=canvas&t=kkSbDjKMDuH7fUdO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A95",
-          "https://www.figma.com/proto/w8l7gdX4UEMrZLup3rBrgd/Untitled?node-id=8-95&node-type=canvas&t=kkSbDjKMDuH7fUdO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A95",
-        ],
-      },
+      // {
+      //   id: 6,
+      //   name: "Trading View",
+      //   description:
+      //     "I'm designing a TradingView-inspired website in Figma, focusing on creating an interactive and seamless user experience. The prototype includes dynamic charts, real-time data updates, and intuitive navigation. It emphasizes smooth transitions and engaging interactions to provide users with an efficient and immersive trading platform",
+      //   imageUrl: FigmaImage,
+      //   techStack: ["Figma", "Prototyping", "Design"],
+      //   DemoLink: [
+      //     "https://www.figma.com/proto/w8l7gdX4UEMrZLup3rBrgd/Untitled?node-id=8-95&node-type=canvas&t=kkSbDjKMDuH7fUdO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A95",
+      //     "https://www.figma.com/proto/w8l7gdX4UEMrZLup3rBrgd/Untitled?node-id=8-95&node-type=canvas&t=kkSbDjKMDuH7fUdO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A95",
+      //   ],
+      // },
     ],
   };
   return (
