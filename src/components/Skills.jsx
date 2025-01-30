@@ -29,10 +29,10 @@ const Skills = () => {
           title: "CSS",
           image: cssImage,
         },
-        {
-          title: "React.js",
-          image: reactjsImage,
-        },
+        // {
+        //   title: "React.js",
+        //   image: reactjsImage,
+        // },
         {
           title: "Tailwind Css",
           image: tailwindIcon,
