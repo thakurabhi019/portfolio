@@ -19,6 +19,24 @@ import adobeImage from '../assets/image/adobelogo-removebg-preview.png'
 const Skills = () => {
   const items = [
     {
+      title: "Ui/Ux Designing",
+      content: [
+        {
+          title: "Figma",
+          image: FigmaImage,
+        },
+        {
+          title: "Canva",
+          image: CanvaImage,
+        },
+        {
+          title: "Adobe Express",
+          image: adobeImage,
+        },
+        // Add more back-end technologies
+      ],
+    },
+    {
       title: "Front End",
       content: [
         {
@@ -40,24 +58,7 @@ const Skills = () => {
         // Add more front-end technologies
       ],
     },
-    {
-        title: "Ui/Ux Designing",
-        content: [
-          {
-            title: "Figma",
-            image: FigmaImage,
-          },
-          {
-            title: "Canva",
-            image: CanvaImage,
-          },
-          {
-            title: "Adobe Express",
-            image: adobeImage,
-          },
-          // Add more back-end technologies
-        ],
-      },
+    
     // {
     //   title: "Back End",
     //   content: [
@@ -85,35 +86,35 @@ const Skills = () => {
     //     },
     //   ],
     // },
-    {
-      title: "Tools",
-      content: [
-        {
-          title: "Git",
-          image: gitImage,
-        },
-        {
-          title: "GitHub",
-          image: gitHubImage,
-        },
-        // {
-        //   title: "Socket",
-        //   image: socketImage,
-        // },
-        // {
-        //   title: "Docker",
-        //   image: dockerImage,
-        // },
-        // {
-        //   title: "AWS",
-        //   image: awsImage,
-        // },
-        // {
-        //   title: "Langchain",
-        //   image: langchain,
-        // },
-      ],
-    },
+    // {
+    //   title: "Tools",
+    //   content: [
+    //     {
+    //       title: "Git",
+    //       image: gitImage,
+    //     },
+    //     {
+    //       title: "GitHub",
+    //       image: gitHubImage,
+    //     },
+    //     // {
+    //     //   title: "Socket",
+    //     //   image: socketImage,
+    //     // },
+    //     // {
+    //     //   title: "Docker",
+    //     //   image: dockerImage,
+    //     // },
+    //     // {
+    //     //   title: "AWS",
+    //     //   image: awsImage,
+    //     // },
+    //     // {
+    //     //   title: "Langchain",
+    //     //   image: langchain,
+    //     // },
+    //   ],
+    // },
   ];
   return (
     <div
