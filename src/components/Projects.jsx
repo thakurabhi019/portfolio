@@ -4,6 +4,7 @@ import FigmaImage from "/src/assets/image/Screenshot 2024-11-17 210326.png";
 import tatamotors from "/src/assets/image/tatamotarsimage.jpeg";
 import flightnetwork from "/src/assets/image/Screenshot_28-11-2024_143057_us-en.flightnetwork.com.jpeg";
 import BikeDekho from "/src/assets/image/mobile.png";
+import staffManage from "/src/assets/image/Screenshot 2025-02-03 120336.png"
 const Projects = () => {
   const portfolioData = {
     portfolioCards: [
@@ -20,17 +21,29 @@ const Projects = () => {
         ],
       },
       {
-        id: 2,
-        name: "BikeDekho",
-        description:
-          " Designed a sleek and user-friendly mobile app in Figma for exploring, comparing, and purchasing bikes and scooters with intuitive navigation and responsive design.",
-        imageUrl: BikeDekho,
-        techStack: ["Figma", "Design"],
-        DemoLink: [
-          "https://www.figma.com/design/U9yOIApomHc1JpIoBDkWRV/Untitled?node-id=0-1&t=1hoToM78L9UQZxQB-1",
-          "https://www.figma.com/design/U9yOIApomHc1JpIoBDkWRV/Untitled?node-id=0-1&t=1hoToM78L9UQZxQB-1",
-        ],
-      },
+          id: 2,
+          name: "Staff Management System",
+          description:
+            " This Admin Management System is a web & mobile-friendly dashboard where admins can assign tasks, manage employees, and communicate via an integrated chat system. Employees can check assigned tasks, track task history, and update their status.",
+          imageUrl: staffManage,
+          techStack: ["Figma", "Mobile Design" , "Prototyping"],
+          DemoLink: [
+            "https://www.figma.com/design/mpW1hNYK1FjsjuuktNQ8BT/Untitled?node-id=0-1&t=jTkB1iXOLiCVjQ33-1",
+            "https://www.figma.com/design/mpW1hNYK1FjsjuuktNQ8BT/Untitled?node-id=0-1&t=jTkB1iXOLiCVjQ33-1",
+          ],
+        },
+      // {
+      //   id: 2,
+      //   name: "BikeDekho",
+      //   description:
+      //     " Designed a sleek and user-friendly mobile app in Figma for exploring, comparing, and purchasing bikes and scooters with intuitive navigation and responsive design.",
+      //   imageUrl: BikeDekho,
+      //   techStack: ["Figma", "Design"],
+      //   DemoLink: [
+      //     "https://www.figma.com/design/U9yOIApomHc1JpIoBDkWRV/Untitled?node-id=0-1&t=1hoToM78L9UQZxQB-1",
+      //     "https://www.figma.com/design/U9yOIApomHc1JpIoBDkWRV/Untitled?node-id=0-1&t=1hoToM78L9UQZxQB-1",
+      //   ],
+      // },
       {
         id: 3,
         name: "Tata Motors",
