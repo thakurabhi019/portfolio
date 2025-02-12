@@ -5,6 +5,7 @@ import tatamotors from "/src/assets/image/tatamotarsimage.jpeg";
 import flightnetwork from "/src/assets/image/Screenshot_28-11-2024_143057_us-en.flightnetwork.com.jpeg";
 import BikeDekho from "/src/assets/image/mobile.png";
 import staffManage from "/src/assets/image/Screenshot 2025-02-03 120336.png"
+import Dattingapp from "/src/assets/image/MacBook Air - 2.png"
 const Projects = () => {
   const portfolioData = {
     portfolioCards: [
@@ -21,7 +22,19 @@ const Projects = () => {
         ],
       },
       {
-          id: 2,
+        id: 2,
+        name: "Dating App",
+        description:
+          " Dating Shating is a free and modern dating app designed to help people connect, chat, and build meaningful relationships. Whether you’re looking for love, friendship, or casual connections, Dating Shating makes finding the right match effortless and fun.",
+        imageUrl: Dattingapp,
+        techStack: ["Figma", "Mobile Design" , "Prototyping"],
+        DemoLink: [
+          "https://www.figma.com/design/XfUu6cJ6MzalNQ2ujgaZYL/Untitled?t=yPW0ehii55txzsHm-1",
+          "https://www.figma.com/design/XfUu6cJ6MzalNQ2ujgaZYL/Untitled?t=yPW0ehii55txzsHm-1",
+        ],
+      },
+      {
+          id: 3,
           name: "Staff Management System",
           description:
             " This Admin Management System is a web & mobile-friendly dashboard where admins can assign tasks, manage employees, and communicate via an integrated chat system. Employees can check assigned tasks, track task history, and update their status.",
@@ -45,7 +58,7 @@ const Projects = () => {
       //   ],
       // },
       {
-        id: 3,
+        id: 4,
         name: "Tata Motors",
         description:
           "I'm designing a Tata Motors website in Figma, focusing on creating an interactive and seamless user experience. The prototype includes dynamic real-time data updates, and intuitive navigation. It emphasizes smooth transitions and engaging interactions.",
@@ -58,7 +71,7 @@ const Projects = () => {
       },
 
       {
-        id: 4,
+        id: 5,
         name: "Plagiarism Detector - Frontend",
         description:
           "The Frontend for the Plagiarism and AI Detection Website is a fully responsive, user-centric interface designed to provide an intuitive and seamless experience for users across all devices. Developed using **Tailwind CSS**, and **HTML**, this frontend ensures fast rendering, easy navigation, and a visually appealing design while allowing users to easily upload documents and receive real-time plagiarism and AI detection results. The platform's interface integrates directly with the backend to process and display results efficiently.",
@@ -71,7 +84,7 @@ const Projects = () => {
         ],
       },
       {
-        id: 5,
+        id: 6,
         name: "Liquid Health",
         description:
           "The Liquid Health frontend, built with React, Tailwind CSS, and HTML, offers a fully responsive, user-friendly design. It ensures fast, smooth interactions across all devices, delivering an engaging, performance-optimized experience for users",

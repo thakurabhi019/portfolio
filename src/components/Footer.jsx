@@ -1,5 +1,7 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { FaBehance } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <div
@@ -15,7 +17,7 @@ const Footer = () => {
           <div className="flex flex-col gap-1">
             <p className="text-slate-600 text-lg">You can find me everywhere</p>
             <div className="flex justify-center items-center w-full">
-              <ul className="w-full flex justify-evenly text-3xl lg:text-5xl text-slate-600  ">
+              <ul className="w-full flex justify-evenly gap-3 text-3xl lg:text-5xl text-slate-600  ">
                 <li>
                   <a
                     href="https://www.linkedin.com/in/abhirana019/"
@@ -25,6 +27,17 @@ const Footer = () => {
                     <FaLinkedin className="hover:text-[#287bbc]" />
                   </a>
                 </li>
+
+                <li>
+                  <a
+                    href="https://www.behance.net/abhirana23"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaBehance className="hover:text-[#287bbc]" />
+                  </a>
+                </li>
+
                 <li>
                   <a
                     href="https://github.com/thakurabhi019"
@@ -43,15 +56,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* <div className="flex justify-center  ">
-          <p className="flex text-xl items-baseline font-semibold text-slate-700">
-            Made with&nbsp;
-            <span className=" ">
-              <FaHeart className="text-red-500" />
-            </span>
-            &nbsp; in India
-          </p>
-        </div> */}
       </div>
     </div>
   );
