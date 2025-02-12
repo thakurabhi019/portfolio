@@ -29,8 +29,8 @@ const Projects = () => {
         imageUrl: Dattingapp,
         techStack: ["Figma", "Mobile Design" , "Prototyping"],
         DemoLink: [
-          "https://www.figma.com/design/XfUu6cJ6MzalNQ2ujgaZYL/Untitled?t=yPW0ehii55txzsHm-1",
-          "https://www.figma.com/design/XfUu6cJ6MzalNQ2ujgaZYL/Untitled?t=yPW0ehii55txzsHm-1",
+          "https://www.figma.com/design/XfUu6cJ6MzalNQ2ujgaZYL/Untitled?node-id=0-1&t=yPW0ehii55txzsHm-1",
+          "https://www.figma.com/design/XfUu6cJ6MzalNQ2ujgaZYL/Untitled?node-id=0-1&t=yPW0ehii55txzsHm-1",
         ],
       },
       {
