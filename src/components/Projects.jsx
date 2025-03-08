@@ -33,18 +33,18 @@ const Projects = () => {
           "https://www.figma.com/design/XfUu6cJ6MzalNQ2ujgaZYL/Untitled?node-id=0-1&t=yPW0ehii55txzsHm-1",
         ],
       },
-      {
-          id: 3,
-          name: "Staff Management System",
-          description:
-            " This Admin Management System is a web & mobile-friendly dashboard where admins can assign tasks, manage employees, and communicate via an integrated chat system. Employees can check assigned tasks, track task history, and update their status.",
-          imageUrl: staffManage,
-          techStack: ["Figma", "Mobile Design" , "Prototyping"],
-          DemoLink: [
-            "https://www.figma.com/design/mpW1hNYK1FjsjuuktNQ8BT/Untitled?node-id=0-1&t=jTkB1iXOLiCVjQ33-1",
-            "https://www.figma.com/design/mpW1hNYK1FjsjuuktNQ8BT/Untitled?node-id=0-1&t=jTkB1iXOLiCVjQ33-1",
-          ],
-        },
+      // {
+      //     id: 3,
+      //     name: "Staff Management System",
+      //     description:
+      //       " This Admin Management System is a web & mobile-friendly dashboard where admins can assign tasks, manage employees, and communicate via an integrated chat system. Employees can check assigned tasks, track task history, and update their status.",
+      //     imageUrl: staffManage,
+      //     techStack: ["Figma", "Mobile Design" , "Prototyping"],
+      //     DemoLink: [
+      //       "https://www.figma.com/design/mpW1hNYK1FjsjuuktNQ8BT/Untitled?node-id=0-1&t=jTkB1iXOLiCVjQ33-1",
+      //       "https://www.figma.com/design/mpW1hNYK1FjsjuuktNQ8BT/Untitled?node-id=0-1&t=jTkB1iXOLiCVjQ33-1",
+      //     ],
+      //   },
       // {
       //   id: 2,
       //   name: "BikeDekho",
@@ -58,7 +58,7 @@ const Projects = () => {
       //   ],
       // },
       {
-        id: 4,
+        id: 3,
         name: "Tata Motors",
         description:
           "I'm designing a Tata Motors website in Figma, focusing on creating an interactive and seamless user experience. The prototype includes dynamic real-time data updates, and intuitive navigation. It emphasizes smooth transitions and engaging interactions.",
@@ -71,7 +71,7 @@ const Projects = () => {
       },
 
       {
-        id: 5,
+        id: 4,
         name: "Plagiarism Detector - Frontend",
         description:
           "The Frontend for the Plagiarism and AI Detection Website is a fully responsive, user-centric interface designed to provide an intuitive and seamless experience for users across all devices. Developed using **Tailwind CSS**, and **HTML**, this frontend ensures fast rendering, easy navigation, and a visually appealing design while allowing users to easily upload documents and receive real-time plagiarism and AI detection results. The platform's interface integrates directly with the backend to process and display results efficiently.",
@@ -84,7 +84,7 @@ const Projects = () => {
         ],
       },
       {
-        id: 6,
+        id: 5,
         name: "Liquid Health",
         description:
           "The Liquid Health frontend, built with React, Tailwind CSS, and HTML, offers a fully responsive, user-friendly design. It ensures fast, smooth interactions across all devices, delivering an engaging, performance-optimized experience for users",
